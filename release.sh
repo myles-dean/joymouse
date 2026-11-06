@@ -26,3 +26,6 @@ rm -f "$ZIP"
 ditto -c -k --keepParent build/JoyMouse.app "$ZIP"
 spctl --assess --type execute --verbose build/JoyMouse.app
 echo "release: $ZIP"
+echo "Homebrew cask (myles-dean/homebrew-tap, Casks/joymouse.rb):"
+echo "  version \"$VERSION\""
+echo "  sha256 \"$(shasum -a 256 "$ZIP" | cut -d' ' -f1)\""

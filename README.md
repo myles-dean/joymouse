@@ -25,11 +25,22 @@ from the menu.
 
 ## Install
 
+With [Homebrew](https://brew.sh):
+
+```sh
+brew tap myles-dean/tap
+brew trust myles-dean/tap
+brew install --cask myles-dean/tap/joymouse
+```
+
+Or by hand:
+
 1. Download `JoyMouse-<version>.zip` from the [Releases](../../releases/latest) page.
 2. Unzip it and drag **JoyMouse.app** to **Applications**, then open it.
-3. Allow **Bluetooth** when asked, and allow **Accessibility** in
-   System Settings → Privacy & Security → Accessibility (needed to move the
-   pointer and click).
+
+Either way, the first time it opens: allow **Bluetooth** when asked, and allow
+**Accessibility** in System Settings → Privacy & Security → Accessibility
+(needed to move the pointer and click).
 
 Requires macOS 14 or later.
 
