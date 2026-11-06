@@ -35,8 +35,8 @@ brew install --cask myles-dean/tap/joymouse
 
 Or by hand:
 
-1. Download `JoyMouse-<version>.zip` from the [Releases](../../releases/latest) page.
-2. Unzip it and drag **JoyMouse.app** to **Applications**, then open it.
+1. Download `JoyMouse-<version>.dmg` from the [Releases](../../releases/latest) page.
+2. Open it and drag **JoyMouse** into **Applications**, then open it from there.
 
 Either way, the first time it opens: allow **Bluetooth** when asked, and allow
 **Accessibility** in System Settings → Privacy & Security → Accessibility
@@ -61,7 +61,7 @@ Joy-Con with another app or game.
 
 ```sh
 ./build.sh               # build/JoyMouse.app, ad-hoc signed (or SIGN_IDENTITY="...")
-./release.sh             # universal, Developer ID signed + notarized zip (see the script)
+./release.sh             # universal, Developer ID signed + notarized DMG (see the script)
 ```
 
 Needs Xcode's command line tools (Swift 5.9+). No Xcode project, no dependencies.
