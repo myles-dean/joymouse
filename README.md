@@ -2,6 +2,17 @@
 
 <img src="Resources/AppIcon-1024.png" width="128" align="right" alt="JoyMouse icon">
 
+<p>
+  <img alt="macOS 14 Sonoma or later" src="https://img.shields.io/badge/macOS-14%20Sonoma%2B-111111?logo=apple&logoColor=white">
+  <img alt="Written in Swift" src="https://img.shields.io/badge/Swift-AppKit-f05138?logo=swift&logoColor=white">
+  <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-34c759">
+  <a href="https://github.com/myles-dean/joymouse/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/myles-dean/joymouse?label=release"></a>
+</p>
+
+<p>
+  <a href="https://ko-fi.com/mylesdean_"><img alt="Buy me a coffee on Ko-fi" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
+
 A tiny macOS menu bar app that turns a **Nintendo Switch 2 Joy-Con** into a mouse.
 Slide the Joy-Con 2 on your desk and its built-in optical sensor moves the
 pointer; its buttons click, scroll, and press keys. Every button can be remapped
